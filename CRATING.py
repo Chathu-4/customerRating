@@ -14,6 +14,7 @@ month_order = ['January', 'February', 'March', 'April', 'May', 'June', 'July', '
 
 # Create Dash app
 app = dash.Dash(__name__)
+server=app.server
 
 # Define layout
 app.layout = html.Div([
